@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 6 — JavaScript Basics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Assignment 6 — JavaScript Basics</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="todo.html">Mini Project</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="part1">
+      <h2>Part 1: Introduction to JavaScript</h2>
+      <p>Open the console to see results of variables and operations.</p>
+    </section>
+
+    <section id="part2">
+      <h2>Part 2: DOM Manipulation</h2>
+
+      <h3>Task 2: Change Content</h3>
+      <p id="textChange">This is the original text.</p>
+      <button id="btnChange">Change Text</button>
+
+      <h3>Task 3: Change Styles</h3>
+      <div id="colorBox" style="padding:20px; background:#eee;">This is a box</div>
+      <button id="btnColor">Change Background</button>
+      <button id="btnFont">Change Font Size</button>
+
+      <h3>Task 4: Add & Remove Elements</h3>
+      <ul id="itemList">
+        <li>Item 1</li>
+      </ul>
+      <button id="btnAdd">Add Item</button>
+      <button id="btnRemove">Remove Item</button>
+    </section>
+
+    <section id="part3">
+      <h2>Part 3: Events</h2>
+
+      <h3>Task 5: Mouse Events</h3>
+      <div id="hoverBox" style="width:200px; height:100px; background:#ccc;">Hover over me!</div>
+
+      <h3>Task 6: Keyboard Events</h3>
+      <input id="liveInput" placeholder="Type something..." />
+      <p>Live output: <span id="output"></span></p>
+
+      <h3>Task 7: Form Validation</h3>
+      <form id="form">
+        <input type="text" id="name" placeholder="Name"><br><br>
+        <input type="email" id="email" placeholder="Email"><br><br>
+        <input type="password" id="password" placeholder="Password"><br><br>
+        <button type="submit">Submit</button>
+      </form>
+      <p id="error" style="color:red;"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
